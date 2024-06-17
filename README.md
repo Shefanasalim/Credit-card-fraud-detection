@@ -81,8 +81,11 @@ To run this project, you will need the following software installed on your mach
 
 
 Python 3.7 or higher
+
 Git
+
 Python Libraries
+
 Google Colab
 
 
@@ -90,12 +93,19 @@ Google Colab
 
 
 pandas
+
 numpy
+
 matplotlib
+
 seaborn
+
 scikit-learn
+
 imbalanced-learn
+
 jupyter
+
 
 
 ## Installation
