@@ -58,13 +58,21 @@ credit-card-fraud-detection/
 
 ## Methodology
 1.Data Collection and Exploration: Understanding the dataset, checking for imbalances, and visualizing transaction patterns.
+
 2.Data Preprocessing: Handling missing values, scaling features, and splitting the dataset.
+
 3.Exploratory Data Analysis (EDA): Identifying patterns and correlations within the data.
+
 4.Feature Engineering: Creating new features to improve model performance.
+
 5.Model Development and Training: Implementing machine learning algorithms such as Logistic Regression, Decision Trees, Random Forest, and Gradient Boosting.
+
 6.Hyperparameter Tuning: Optimizing model parameters using techniques like Grid Search and Random Search.
+
 7.Model Evaluation: Assessing model performance using metrics such as accuracy, precision, recall, F1-score, and ROC-AUC.
+
 8.Real-Time Implementation: Integrating the model into a real-time system for detecting fraudulent transactions.
+
 9.Testing: Ensuring the robustness and reliability of the model through rigorous testing.
 
 
