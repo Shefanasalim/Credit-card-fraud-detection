@@ -20,7 +20,7 @@ Number of Fraudulent Transactions: 492
 Features: 30 features including Time, V1 to V28 (anonymized), Amount, and Class (target variable)
 
 
-## Project Structure
+### Project Structure
 credit-card-fraud-detection/
 │
 ├── data/
