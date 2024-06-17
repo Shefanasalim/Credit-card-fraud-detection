@@ -21,6 +21,8 @@ Features: 30 features including Time, V1 to V28 (anonymized), Amount, and Class 
 
 
 ### Project Structure
+
+...
 credit-card-fraud-detection/
 │
 ├── data/
