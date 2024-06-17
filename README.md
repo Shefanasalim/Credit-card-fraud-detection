@@ -26,33 +26,33 @@ Features: 30 features including Time, V1 to V28 (anonymized), Amount, and Class 
 credit-card-fraud-detection/
 │
 ├── data/
-│   ├── creditcard.csv              # Raw dataset
-│   └── processed/                  # Processed data files
+│   ├── creditcard.csv             
+│   └── processed/                  
 │
 ├── notebooks/
-│   ├── 01_data_exploration.ipynb   # Data exploration and visualization
-│   ├── 02_preprocessing.ipynb      # Data preprocessing and feature engineering
-│   ├── 03_model_training.ipynb     # Model development and training
-│   ├── 04_model_evaluation.ipynb   # Model evaluation
-│   └── 05_real_time_implementation.ipynb  # Real-time implementation
+│   ├── 01_data_exploration.ipynb   
+│   ├── 02_preprocessing.ipynb      
+│   ├── 03_model_training.ipynb     
+│   ├── 04_model_evaluation.ipynb   
+│   └── 05_real_time_implementation.ipynb  
 │
 ├── src/
-│   ├── data_preprocessing.py       # Data preprocessing script
-│   ├── feature_engineering.py      # Feature engineering script
-│   ├── model_training.py           # Model training script
-│   ├── model_evaluation.py         # Model evaluation script
-│   └── real_time_detection.py      # Real-time fraud detection script
+│   ├── data_preprocessing.py       
+│   ├── feature_engineering.py      
+│   ├── model_training.py           
+│   ├── model_evaluation.py         
+│   └── real_time_detection.py      
 │
 ├── tests/
-│   └── test_models.py              # Unit tests for model evaluation
+│   └── test_models.py              
 │
 ├── images/
-│   └── project_gantt_chart.png     # Gantt chart for project timeline
+│   └── project_gantt_chart.png     
 │
-├── README.md                       # Project README file
-├── requirements.txt                # Python package dependencies
-├── LICENSE                         # Project license
-└── .gitignore                      # Git ignore file
+├── README.md                       
+├── requirements.txt                
+├── LICENSE                         
+└── .gitignore                      
 
 
 ## Methodology
