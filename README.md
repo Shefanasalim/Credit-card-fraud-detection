@@ -23,36 +23,31 @@ Features: 30 features including Time, V1 to V28 (anonymized), Amount, and Class 
 ### Project Structure
 
 ...
-credit-card-fraud-detection/
-│
+```
+prediction-of-heart-disease/
 ├── data/
-│   ├── creditcard.csv              # Raw dataset
-│   └── processed/                  # Processed data files
-│
+│   └── heart_disease_dataset.csv
 ├── notebooks/
-│   ├── 01_data_exploration.ipynb   # Data exploration and visualization
-│   ├── 02_preprocessing.ipynb      # Data preprocessing and feature engineering
-│   ├── 03_model_training.ipynb     # Model development and training
-│   ├── 04_model_evaluation.ipynb   # Model evaluation
-│   └── 05_real_time_implementation.ipynb  # Real-time implementation
-│
+│   ├── Data_Exploration_and_Cleaning.ipynb
+│   ├── Feature_Engineering_and_Preprocessing.ipynb
+│   ├── Model_Building_and_Evaluation.ipynb
+│   └── Model_Interpretation.ipynb
 ├── src/
-│   ├── data_preprocessing.py       # Data preprocessing script
-│   ├── feature_engineering.py      # Feature engineering script
-│   ├── model_training.py           # Model training script
-│   ├── model_evaluation.py         # Model evaluation script
-│   └── real_time_detection.py      # Real-time fraud detection script
-│
-├── tests/
-│   └── test_models.py              # Unit tests for model evaluation
-│
-├── images/
-│   └── project_gantt_chart.png     # Gantt chart for project timeline
-│
-├── README.md                       # Project README file
-├── requirements.txt                # Python package dependencies
-├── LICENSE                         # Project license
-└── .gitignore                      # Git ignore file
+│   ├── __init__.py
+│   ├── data_cleaning.py
+│   ├── data_loader.py
+│   ├── feature_engineering.py
+│   ├── model_training.py
+│   ├── model_evaluation.py
+│   ├── preprocess.py
+│   └── train.py
+├── results/
+│   ├── evaluation_metrics.txt
+│   └── visualizations/
+│       ├── feature_importance.png
+│       └── model_performance.png
+├── README.md
+└── requirements.txt
 
 
 ## Methodology
